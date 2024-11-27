@@ -254,9 +254,9 @@ marisa-trie==1.2.1
 Markdown==3.7
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
-matplotlib
-matplotlib-inline
-matplotlib-venn
+matplotlib==3.8.0
+matplotlib-inline==0.1.7
+matplotlib-venn==1.1.1
 mdit-py-plugins==0.4.2
 mdurl==0.1.2
 miniKanren==1.0.3
