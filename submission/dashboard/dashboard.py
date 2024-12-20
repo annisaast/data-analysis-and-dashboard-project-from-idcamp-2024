@@ -1,6 +1,3 @@
-.\venv\Scripts\activate
-pip install numpy pandas matplotlib seaborn statsmodels dash plotly
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
