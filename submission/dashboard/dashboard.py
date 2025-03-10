@@ -57,7 +57,7 @@ def create_byworkingday_df(df):
     return byworkingday_df
 
 def create_byusertype_df(df):
-    ser_type_mean = df[['casual', 'registered']].mean()
+    user_type_mean = df[['casual', 'registered']].mean()
     byusertype_df = pd.DataFrame({
         'user_type': ['Casual', 'Registered'],
         'total': [user_type_mean['casual'], user_type_mean['registered']]
